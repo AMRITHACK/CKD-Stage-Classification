@@ -1,0 +1,4 @@
+Dataset rows: 25800
+Input features: 33
+Test accuracy (same stratified 80/20 split): 100.00%
+Model: RandomForestClassifier(n_estimators=50, max_depth=5, min_samples_split=2, random_state=42)

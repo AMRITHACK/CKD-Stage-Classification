@@ -1,0 +1,233 @@
+{
+  "Age": {
+    "type": "number",
+    "min": 20.0,
+    "max": 84.0,
+    "default": 52.0,
+    "integer": true
+  },
+  "Gender": {
+    "type": "number",
+    "min": 0.0,
+    "max": 1.0,
+    "default": 1.0,
+    "integer": true
+  },
+  "BMI": {
+    "type": "number",
+    "min": 18.0,
+    "max": 34.0,
+    "default": 26.0,
+    "integer": true
+  },
+  "Systolic_BP": {
+    "type": "number",
+    "min": 90.0,
+    "max": 189.0,
+    "default": 109.0,
+    "integer": true
+  },
+  "Diastolic_BP": {
+    "type": "number",
+    "min": 60.0,
+    "max": 119.0,
+    "default": 73.0,
+    "integer": true
+  },
+  "Heart_Rate": {
+    "type": "number",
+    "min": 60.0,
+    "max": 109.0,
+    "default": 84.0,
+    "integer": true
+  },
+  "Blood_Urea_Nitrogen": {
+    "type": "number",
+    "min": 7.0,
+    "max": 149.0,
+    "default": 15.0,
+    "integer": true
+  },
+  "Urine_Albumin": {
+    "type": "number",
+    "min": 0.0,
+    "max": 999.0,
+    "default": 13.0,
+    "integer": true
+  },
+  "Urine_Protein": {
+    "type": "number",
+    "min": 0.0,
+    "max": 499.0,
+    "default": 6.0,
+    "integer": true
+  },
+  "Albumin_Creatinine_Ratio": {
+    "type": "number",
+    "min": 0.0,
+    "max": 1199.0,
+    "default": 20.0,
+    "integer": true
+  },
+  "Urine_Specific_Gravity": {
+    "type": "number",
+    "min": 1.005000418,
+    "max": 1.029999444,
+    "default": 1.0175292885,
+    "integer": false
+  },
+  "Sodium": {
+    "type": "number",
+    "min": 135.0,
+    "max": 144.0,
+    "default": 139.0,
+    "integer": true
+  },
+  "Potassium": {
+    "type": "number",
+    "min": 3.0,
+    "max": 8.0,
+    "default": 4.0,
+    "integer": true
+  },
+  "Calcium": {
+    "type": "number",
+    "min": 8.0,
+    "max": 10.0,
+    "default": 9.0,
+    "integer": true
+  },
+  "Phosphorus": {
+    "type": "number",
+    "min": 2.0,
+    "max": 8.0,
+    "default": 3.0,
+    "integer": true
+  },
+  "Chloride": {
+    "type": "number",
+    "min": 96.0,
+    "max": 109.0,
+    "default": 102.0,
+    "integer": true
+  },
+  "Bicarbonate": {
+    "type": "number",
+    "min": 10.0,
+    "max": 27.0,
+    "default": 24.0,
+    "integer": true
+  },
+  "Hemoglobin": {
+    "type": "number",
+    "min": 5.0,
+    "max": 16.0,
+    "default": 14.0,
+    "integer": true
+  },
+  "RBC_Count": {
+    "type": "number",
+    "min": 4.000061305,
+    "max": 5.999995025,
+    "default": 4.9985667285,
+    "integer": false
+  },
+  "WBC_Count": {
+    "type": "number",
+    "min": 4000.0,
+    "max": 10999.0,
+    "default": 7497.0,
+    "integer": true
+  },
+  "Platelet_Count": {
+    "type": "number",
+    "min": 150022.0,
+    "max": 449965.0,
+    "default": 300326.5,
+    "integer": true
+  },
+  "Packed_Cell_Volume": {
+    "type": "number",
+    "min": 20.0,
+    "max": 49.0,
+    "default": 43.0,
+    "integer": true
+  },
+  "Blood_Glucose_Random": {
+    "type": "number",
+    "min": 70.0,
+    "max": 199.0,
+    "default": 134.0,
+    "integer": true
+  },
+  "Fasting_Glucose": {
+    "type": "number",
+    "min": 70.0,
+    "max": 129.0,
+    "default": 99.0,
+    "integer": true
+  },
+  "HbA1c": {
+    "type": "number",
+    "min": 4.000854796,
+    "max": 9.999904082,
+    "default": 6.9961909559999995,
+    "integer": false
+  },
+  "Cholesterol": {
+    "type": "number",
+    "min": 150.0,
+    "max": 279.0,
+    "default": 215.0,
+    "integer": true
+  },
+  "Triglycerides": {
+    "type": "number",
+    "min": 100.0,
+    "max": 299.0,
+    "default": 200.0,
+    "integer": true
+  },
+  "Serum_Albumin": {
+    "type": "number",
+    "min": 1.0,
+    "max": 4.0,
+    "default": 4.0,
+    "integer": true
+  },
+  "Total_Protein": {
+    "type": "number",
+    "min": 5.000064531,
+    "max": 7.999568019,
+    "default": 6.518247866499999,
+    "integer": false
+  },
+  "Diabetes": {
+    "type": "category",
+    "options": [
+      "No",
+      "Yes"
+    ]
+  },
+  "Hypertension": {
+    "type": "category",
+    "options": [
+      "No",
+      "Yes"
+    ]
+  },
+  "Smoking_Status": {
+    "type": "category",
+    "options": [
+      "No",
+      "Yes"
+    ]
+  },
+  "Family_History_Kidney": {
+    "type": "category",
+    "options": [
+      "No",
+      "Yes"
+    ]
+  }
+}
